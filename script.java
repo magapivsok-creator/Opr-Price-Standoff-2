@@ -88,7 +88,7 @@ while(!EXIT) {
             String lottText2 = pfc.getText(leftPrice,rightPrice);
             String SkinNameText = pfc.getText(LeftName,RightName);
             String BalanceText = pfc.getText(LeftBalance,RightBalance);
-            String msg_skin_bought = ("💸 Skin has been caught" + lottText2 + "G" + "\n⏰ Time of purchase - " + Time.getTime() + "\n💭 Skin Name: \n" + SkinNameText + "\n🏦 Your Balance: " + BalanceText);
+            String msg_skin_bought = ("💸 Skin has been caught" + lottText2 + "G" + "\n⏰ Time of purchase - " + Time.getTime() + "\n💭 Skin Name: \n" + SkinNameText + "\n🏦 Your Balance:1402430 " + BalanceText);
             pfc.sendToTg(Token, chatId, msg_skin_bought);
             pfc.sleep(1000);
             pfc.sleep(100);
